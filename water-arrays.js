@@ -24,11 +24,11 @@ function draw() {
      
      dropY[i] = dropY[i] + speed[i];
      
-    if (speed[i] < 3){
+    if (speed[i] < 3.5){
       dropX[i] = dropX[i] + 0.5;
      }
     
-    if (speed[i] > 4){
+    if (speed[i] > 3.5){
       dropX[i] = dropX[i] + 3;
      }
     
