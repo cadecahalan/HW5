@@ -6,7 +6,7 @@ function setup() {
   createCanvas(500, 500);
   colorMode(HSB)
   
-  for (var i = 0; i < 10; i = i + 1) {
+  for (i = 0; i < 10; i = i + 1) {
     dropY[i] = random(220, height);
     speed[i] = random(2, 5);
     dropX[i] = 230;
@@ -19,7 +19,7 @@ function draw() {
 
   rect(0, 200, 230, 20);
   
-  for (var i = 0; i < 10; i = i + 1) {
+  for (i = 0; i < 10; i = i + 1) {
      ellipse(dropX[i], dropY[i], 10);
      
      dropY[i] = dropY[i] + speed[i];
